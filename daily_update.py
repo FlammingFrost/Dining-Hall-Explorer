@@ -83,5 +83,5 @@ def __refresh_database():
     print("Database refreshed.")
 
 if __name__ == "__main__":
-    # run_daily_update(update_only=False)
+    run_daily_update(update_only=True)
     __refresh_database()  # Uncomment to refresh the database with all scraped data

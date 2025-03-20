@@ -18,7 +18,11 @@ def init_driver():
     options.add_argument("--headless")
     options.add_argument("--disable-gpu")
     options.add_argument("--window-size=1920,1080")
-    return webdriver.Chrome(options=options)
+    # if on macOS
+    # return webdriver.Chrome(options=options)
+    options.binary_location = "/usr/bin/chromium"
+    return webdriver.Chrome(service=webdriver.chrome.service.Service("/usr/bin/chromedriver"), options=options)
+
 
 # Function to get available dates, dining halls, and meals
 def get_available_options(update_only=True) -> tuple:
