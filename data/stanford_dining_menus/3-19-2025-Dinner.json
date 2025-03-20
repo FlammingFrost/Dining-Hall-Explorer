@@ -1,0 +1,977 @@
+{
+    "Arrillaga Family Dining Commons": [
+        {
+            "dish_name": "Salmon Teriyaki",
+            "ingredients": "salmon, tamari sauce, rice vinegar, sesame oil, sugar, ginger, garlic, pepper",
+            "allergens": "FISH, SESAME, SOY",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Mongolian Tofu Stir Fry",
+            "ingredients": "tofu, bell peppers, green beans, red onion, canola/olive oil blend, green onions, garlic, salt, pepper, mongolian stir fry sauce (alcohol free tamari, hoisin sauce, beet sugar, corn starch, vegetarian oyster sauce)",
+            "allergens": "SESAME, SOY, WHEAT",
+            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SHELLFISH, TREENUTS",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Roasted Asparagus",
+            "ingredients": "asparagus, olive oil, salt, pepper",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Seasonal Steamed Vegetables",
+            "ingredients": "seasonal vegetables, salt",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Yakisoba Noodles",
+            "ingredients": "ramen noodles, cabbage, onions, red bell pepper, green onions, vegetarian oyster sauce, A1 sauce, ketchup, sugar, carrots, shiitake mushroom, furikake seasoning (nori seaweed, sesame seeds, salt, sugar, korean red pepper, mushroom seasoning), sesame oil, mayonnaise",
+            "allergens": "EGG, SESAME, SOY, WHEAT",
+            "trace_allergens": "COCONUT, FISH, MILK, PEANUTS, SHELLFISH, TREENUTS",
+            "dietary_icons": [
+                "Vegetarian"
+            ]
+        },
+        {
+            "dish_name": "Panini Station",
+            "ingredients": "telera roll, chipotle aioli (soybean oil, eggs, vinegar, egg yolks, lemon juice concentrate, salt, sugar, dried onions, dried garlic, paprika, natural flavor, calcium disodium edta, tomato paste, dried chipotle peppers, distilled vinegar, corn oil, salt, corn starch, onion powder, garlic powder, spices, Lemon juice, garlic, sherry vinegar, red wine vinegar), beef pork salami, cheddar cheese, provolone cheese, vegan pesto sauce, tomatoes, arugula, sundried tomato pesto sauce",
+            "allergens": "EGG, SOY, WHEAT",
+            "trace_allergens": "COCONUT, MILK, TREENUTS",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Performance Bar",
+            "ingredients": "Seasonal Assortment of Fresh Vegetables, Salads, Beans, Whole Grains, Hard Boiled Eggs, Baked Chicken, Tofu, Hummus, Spinach",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Pasta Alfredo",
+            "ingredients": "pasta, white sauce (cream, butter, milk powder, flour, garlic, nutmeg, onion powder, white pepper, salt), mozzarella cheese, parmesan cheese",
+            "allergens": "MILK, WHEAT",
+            "trace_allergens": "EGG",
+            "dietary_icons": [
+                "Vegetarian",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Pasta Marinara",
+            "ingredients": "pasta, marinara sauce, canola/olive oil blend",
+            "allergens": "SOY, WHEAT",
+            "trace_allergens": "EGG",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Performance Bar",
+            "ingredients": "Seasonal Assortment of Fresh Vegetables, Salads, Beans, Whole Grains, Hard Boiled Eggs, Baked Chicken, Tofu, Hummus, Spinach",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Penne Pasta (Gluten-Free)",
+            "ingredients": "brown rice, rice bran, water",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        }
+    ],
+    "Branner Dining": [
+        {
+            "dish_name": "Salmon Teriyaki",
+            "ingredients": "salmon, tamari sauce, rice vinegar, sesame oil, sugar, ginger, garlic, pepper",
+            "allergens": "FISH, SESAME, SOY",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Mongolian Tofu Stir Fry",
+            "ingredients": "tofu, bell peppers, green beans, red onion, canola/olive oil blend, green onions, garlic, salt, pepper, mongolian stir fry sauce (alcohol free tamari, hoisin sauce, beet sugar, corn starch, vegetarian oyster sauce)",
+            "allergens": "SESAME, SOY, WHEAT",
+            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SHELLFISH, TREENUTS",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Roasted Asparagus",
+            "ingredients": "asparagus, olive oil, salt, pepper",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Seasonal Steamed Vegetables",
+            "ingredients": "seasonal vegetables, salt",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Yakisoba Noodles",
+            "ingredients": "ramen noodles, cabbage, onions, red bell pepper, green onions, vegetarian oyster sauce, A1 sauce, ketchup, sugar, carrots, shiitake mushroom, furikake seasoning (nori seaweed, sesame seeds, salt, sugar, korean red pepper, mushroom seasoning), sesame oil, mayonnaise",
+            "allergens": "EGG, SESAME, SOY, WHEAT",
+            "trace_allergens": "COCONUT, FISH, MILK, PEANUTS, SHELLFISH, TREENUTS",
+            "dietary_icons": [
+                "Vegetarian"
+            ]
+        },
+        {
+            "dish_name": "Panini Station",
+            "ingredients": "telera roll, chipotle aioli (soybean oil, eggs, vinegar, egg yolks, lemon juice concentrate, salt, sugar, dried onions, dried garlic, paprika, natural flavor, calcium disodium edta, tomato paste, dried chipotle peppers, distilled vinegar, corn oil, salt, corn starch, onion powder, garlic powder, spices, Lemon juice, garlic, sherry vinegar, red wine vinegar), beef pork salami, cheddar cheese, provolone cheese, vegan pesto sauce, tomatoes, arugula, sundried tomato pesto sauce",
+            "allergens": "EGG, SOY, WHEAT",
+            "trace_allergens": "COCONUT, MILK, TREENUTS",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Performance Bar",
+            "ingredients": "Seasonal Assortment of Fresh Vegetables, Salads, Beans, Whole Grains, Hard Boiled Eggs, Baked Chicken, Tofu, Hummus, Spinach",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Pasta Alfredo",
+            "ingredients": "pasta, white sauce (cream, butter, milk powder, flour, garlic, nutmeg, onion powder, white pepper, salt), mozzarella cheese, parmesan cheese",
+            "allergens": "MILK, WHEAT",
+            "trace_allergens": "EGG",
+            "dietary_icons": [
+                "Vegetarian",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Pasta Marinara",
+            "ingredients": "pasta, marinara sauce, canola/olive oil blend",
+            "allergens": "SOY, WHEAT",
+            "trace_allergens": "EGG",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Performance Bar",
+            "ingredients": "Seasonal Assortment of Fresh Vegetables, Salads, Beans, Whole Grains, Hard Boiled Eggs, Baked Chicken, Tofu, Hummus, Spinach",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Penne Pasta (Gluten-Free)",
+            "ingredients": "brown rice, rice bran, water",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        }
+    ],
+    "EVGR Dining": [
+        {
+            "dish_name": "Baked Pasta Marinara",
+            "ingredients": "pasta, vegetable soup base, garlic, tomato, basil, zucchini, mushroom, salt, canola/olive oil blend",
+            "allergens": "WHEAT",
+            "trace_allergens": "EGG",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Plant-Forward \"Bolognese\" Pasta",
+            "ingredients": "pasta, marinara sauce, plant-forward \"beef\" crumbles (pea protein, sunflower oil, spices, caramel color), onions, garlic, italian seasoning, red pepper flakes, canola/olive oil blend",
+            "allergens": "SOY, WHEAT",
+            "trace_allergens": "EGG",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Seasonal Steamed Vegetables",
+            "ingredients": "seasonal vegetables, salt",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Garlic Breadstick",
+            "ingredients": "enriched wheat flour, malted barley flour, salt, sugar, datem, enzymes, l-cysteine, calcium sulfate, dextrose, yeast, calcium propionate, monoglycerides, diglycerides, citric acid, cornmeal, soybean oil, palm oil, dehydrated garlic, salt, natural flavors, artificial flavors, citric acid, whey, garnish (parmesan, parsley)",
+            "allergens": "MILK, SOY, WHEAT",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Vegetarian"
+            ]
+        },
+        {
+            "dish_name": "Panini Station",
+            "ingredients": "telera roll, chipotle aioli (soybean oil, eggs, vinegar, egg yolks, lemon juice concentrate, salt, sugar, dried onions, dried garlic, paprika, natural flavor, calcium disodium edta, tomato paste, dried chipotle peppers, distilled vinegar, corn oil, salt, corn starch, onion powder, garlic powder, spices, Lemon juice, garlic, sherry vinegar, red wine vinegar), beef pork salami, cheddar cheese, provolone cheese, vegan pesto sauce, tomatoes, arugula, sundried tomato pesto sauce",
+            "allergens": "EGG, SOY, WHEAT",
+            "trace_allergens": "COCONUT, MILK, TREENUTS",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Performance Bar",
+            "ingredients": "Seasonal Assortment of Fresh Vegetables, Salads, Beans, Whole Grains, Hard Boiled Eggs, Baked Chicken, Tofu, Hummus, Spinach",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Pasta Marinara",
+            "ingredients": "pasta, marinara sauce, canola/olive oil blend",
+            "allergens": "SOY, WHEAT",
+            "trace_allergens": "EGG",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Penne Pasta (Gluten-Free)",
+            "ingredients": "brown rice, rice bran, water",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        }
+    ],
+    "Florence Moore Dining": [
+        {
+            "dish_name": "Salmon Teriyaki",
+            "ingredients": "salmon, tamari sauce, rice vinegar, sesame oil, sugar, ginger, garlic, pepper",
+            "allergens": "FISH, SESAME, SOY",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Mongolian Tofu Stir Fry",
+            "ingredients": "tofu, bell peppers, green beans, red onion, canola/olive oil blend, green onions, garlic, salt, pepper, mongolian stir fry sauce (alcohol free tamari, hoisin sauce, beet sugar, corn starch, vegetarian oyster sauce)",
+            "allergens": "SESAME, SOY, WHEAT",
+            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SHELLFISH, TREENUTS",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Roasted Asparagus",
+            "ingredients": "asparagus, olive oil, salt, pepper",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Seasonal Steamed Vegetables",
+            "ingredients": "seasonal vegetables, salt",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Yakisoba Noodles",
+            "ingredients": "ramen noodles, cabbage, onions, red bell pepper, green onions, vegetarian oyster sauce, A1 sauce, ketchup, sugar, carrots, shiitake mushroom, furikake seasoning (nori seaweed, sesame seeds, salt, sugar, korean red pepper, mushroom seasoning), sesame oil, mayonnaise",
+            "allergens": "EGG, SESAME, SOY, WHEAT",
+            "trace_allergens": "COCONUT, FISH, MILK, PEANUTS, SHELLFISH, TREENUTS",
+            "dietary_icons": [
+                "Vegetarian"
+            ]
+        },
+        {
+            "dish_name": "Panini Station",
+            "ingredients": "telera roll, chipotle aioli (soybean oil, eggs, vinegar, egg yolks, lemon juice concentrate, salt, sugar, dried onions, dried garlic, paprika, natural flavor, calcium disodium edta, tomato paste, dried chipotle peppers, distilled vinegar, corn oil, salt, corn starch, onion powder, garlic powder, spices, Lemon juice, garlic, sherry vinegar, red wine vinegar), beef pork salami, cheddar cheese, provolone cheese, vegan pesto sauce, tomatoes, arugula, sundried tomato pesto sauce",
+            "allergens": "EGG, SOY, WHEAT",
+            "trace_allergens": "COCONUT, MILK, TREENUTS",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Performance Bar",
+            "ingredients": "Seasonal Assortment of Fresh Vegetables, Salads, Beans, Whole Grains, Hard Boiled Eggs, Baked Chicken, Tofu, Hummus, Spinach",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Pasta Alfredo",
+            "ingredients": "pasta, white sauce (cream, butter, milk powder, flour, garlic, nutmeg, onion powder, white pepper, salt), mozzarella cheese, parmesan cheese",
+            "allergens": "MILK, WHEAT",
+            "trace_allergens": "EGG",
+            "dietary_icons": [
+                "Vegetarian",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Pasta Marinara",
+            "ingredients": "pasta, marinara sauce, canola/olive oil blend",
+            "allergens": "SOY, WHEAT",
+            "trace_allergens": "EGG",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Penne Pasta (Gluten-Free)",
+            "ingredients": "brown rice, rice bran, water",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        }
+    ],
+    "Gerhard Casper Dining": [
+        {
+            "dish_name": "Breaded Ranch \"Fried\" Chicken",
+            "ingredients": "(buttermilk chicken, ranch dressing (nonfat greek yogurt, lowfat buttermilk, mayonnaise, ranch dressing spice mix[parsley, dill, onion powder, mushroom seasoning, milk powder, garlic powder, salt, pepper]), eggs, milk, breadcrumbs",
+            "allergens": "EGG, MILK, SOY, WHEAT",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Chilaquiles with Vegan “Eggs”",
+            "ingredients": "plant-based egg substitute (mung bean protein isolate, canola oil, onion, gellan gum, natural carrot extractives, natural flavors, natural turmeric extractives, potassium citrate, salt, soy lecithin, sugar, tapioca syrup, tetrasodium pyrophosphate, transglutaminase, nisin), radish, corn tortilla chips, garlic, salt, cilantro, onions, roasted red salsa(tomatoes, onion, garlic, chipotle peppers), canola/olive oil blend",
+            "allergens": "SOY",
+            "trace_allergens": "EGG",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Seasonal Vegetable Board",
+            "ingredients": "artichokes, asparagus, green beans, beets, bok choy, broccoli, broccolini, brussels sprouts, carrots, cauliflower, mushrooms, okra, peas, bell peppers, chile peppers, potatoes, squash, sunchokes, sweet potatoes, tomatillos, or tomatoes, fresh herbs (chives, cilantro, dill, oregano, parsley, rosemary, sage, salt tarragon, or thyme), salt",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Tater Tots",
+            "ingredients": "potatoes, oil (canola oil, soybean oil, cottonseed oil, sunflower oil, or corn oil), dextrose, natural flavor, salt, sodium acid pyrophosphate, fried in canola oil",
+            "allergens": "SOY",
+            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, TREENUTS, WHEAT",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Blueberry Pancakes",
+            "ingredients": "buttermilk pancake mix (wheat flour, niacin, reduced iron, thiamin mononitrate, riboflavin, folic acid, malted barley flour, enzymes, ascorbic acid, sugar, soy flour, sodium bicarbonate, sodium aluminum phosphate, aluminum sulfate, monocalcium phosphate, canola or soybean oil, dextrose, salt, buttermilk, mono-diglycerides, soy lecithin, eggs), canola/olive oil blend, blueberries",
+            "allergens": "EGG, MILK, SOY",
+            "trace_allergens": "COCONUT, FISH, PEANUTS, SESAME, SHELLFISH, TREENUTS, WHEAT",
+            "dietary_icons": [
+                "Vegetarian"
+            ]
+        },
+        {
+            "dish_name": "Ham Power Scramble",
+            "ingredients": "eggs, ham, seasonal vegetables, cheese, canola/olive oil blend, salt, pepper",
+            "allergens": "EGG, MILK",
+            "trace_allergens": "COCONUT, FISH, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS, WHEAT",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Cheese Quesadilla",
+            "ingredients": "flour tortilla, cheese, salt, pepper, canola/olive oil blend",
+            "allergens": "MILK, SOY, WHEAT",
+            "trace_allergens": "COCONUT, EGG, FISH, PEANUTS, SESAME, SHELLFISH, TREENUTS",
+            "dietary_icons": [
+                "Vegetarian"
+            ]
+        },
+        {
+            "dish_name": "Hearty Minestrone",
+            "ingredients": "tomato puree, diced tomatoes in tomato juice, potatoes, kidney beans, carrots, green beans, celery, garbanzo beans, zucchini, peas, spinach, pasta, modified food starch, salt, parmesan cheese, gelatin, yeast extract, flour, flavoring, beef stock, spices, corn oil, canola oil, garlic, disodium inosinate, disodium guanylate, dextrose",
+            "allergens": "EGG, MILK, WHEAT",
+            "trace_allergens": "",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Pasta Marinara",
+            "ingredients": "pasta, marinara sauce, canola/olive oil blend",
+            "allergens": "SOY, WHEAT",
+            "trace_allergens": "EGG",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Penne Pasta (Gluten-Free)",
+            "ingredients": "brown rice, rice bran, water",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        }
+    ],
+    "Lakeside Dining": [
+        {
+            "dish_name": "Teriyaki Chicken",
+            "ingredients": "chicken, teriyaki glaze (sugar, corn starch, pineapple juice, tamari sauce, canola oil, ginger, garlic), canola/olive oil blend, sesame seeds, garlic, salt",
+            "allergens": "SESAME, SOY",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Teriyaki Tofu with Eggplant",
+            "ingredients": "tofu, vegetable soup base, eggplants, red pepper flakes, ginger, garlic, honey, sesame oil, pineapple juice, rice wine vinegar, tamari, corn starch, bell pepper, onions, canola/olive oil blend, black bean sauce, basil, pasilla chili",
+            "allergens": "SESAME, SOY, WHEAT",
+            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SHELLFISH, SOY, TREENUTS",
+            "dietary_icons": [
+                "Vegetarian"
+            ]
+        },
+        {
+            "dish_name": "Farm Roasted Vegetable Board",
+            "ingredients": "butternut squash, turnips, beets, kale, canola/olive oil blend, salt, pepper",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Seasonal Steamed Vegetables",
+            "ingredients": "seasonal vegetables, salt",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Sweet Chili Hong Kong Noodles",
+            "ingredients": "hong kong noodles, cabbage coleslaw, green onions, tamari, sesame oil, salt, sugar, sesame seeds, sweet chili sauce",
+            "allergens": "EGG, SESAME, SOY, WHEAT",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Vegetarian",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Panini Station",
+            "ingredients": "telera roll, chipotle aioli (soybean oil, eggs, vinegar, egg yolks, lemon juice concentrate, salt, sugar, dried onions, dried garlic, paprika, natural flavor, calcium disodium edta, tomato paste, dried chipotle peppers, distilled vinegar, corn oil, salt, corn starch, onion powder, garlic powder, spices, Lemon juice, garlic, sherry vinegar, red wine vinegar), beef pork salami, cheddar cheese, provolone cheese, vegan pesto sauce, tomatoes, arugula, sundried tomato pesto sauce",
+            "allergens": "EGG, SOY, WHEAT",
+            "trace_allergens": "COCONUT, MILK, TREENUTS",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Performance Bar",
+            "ingredients": "Seasonal Assortment of Fresh Vegetables, Salads, Beans, Whole Grains, Hard Boiled Eggs, Baked Chicken, Tofu, Hummus, Spinach",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Pasta Marinara",
+            "ingredients": "pasta, marinara sauce, canola/olive oil blend",
+            "allergens": "SOY, WHEAT",
+            "trace_allergens": "EGG",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Pasta Alfredo",
+            "ingredients": "pasta, white sauce (cream, butter, milk powder, flour, garlic, nutmeg, onion powder, white pepper, salt), mozzarella cheese, parmesan cheese",
+            "allergens": "MILK, WHEAT",
+            "trace_allergens": "EGG",
+            "dietary_icons": [
+                "Vegetarian",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Penne Pasta (Gluten-Free)",
+            "ingredients": "brown rice, rice bran, water",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Chicken & Waffles with Apple Syrup",
+            "ingredients": "Fried Chicken (chicken halal, buttermilk, flour, thyme, oregano, pepper, garlic powder, cayenne pepper, salt, onion powder, tarragon, parsley), Belgian Waffles (wheat flour, eggs, sugar, soybean oil, canola oil, leavening, malted barley flour, salt, soy lecithin, glycerides, natural flavor, artificial flavors [milk]), Apple Cider Syrup (apple cider vinegar, apple cider, cinnamon, butter, brown sugar), deep fried in canola oil",
+            "allergens": "EGG, MILK, SOY, WHEAT",
+            "trace_allergens": "COCONUT, FISH, PEANUTS, SESAME, SHELLFISH, TREENUTS",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "BBQ Braised Tofu with Eggplant",
+            "ingredients": "tofu, eggplant, bbq sauce (apple cider vinegar, ketchup, molasses, lemon juice, dijon mustard, tamari sauce, liquid smoke flavoring, chipotle pepper, ginger, chili powder, garlic powder, salt, pepper), paprika, onion powder, garlic powder, peppercorn, cayenne pepper, oregano leaf, thyme",
+            "allergens": "SOY",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Lemon Herb Roasted Potatoes",
+            "ingredients": "potatoes, lemon juice, thyme, parsley, turmeric, lemon pepper, canola/olive oil blend, garlic, salt, pepper",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Sauteed Greens",
+            "ingredients": "seasonal leafy greens, salt, pepper, canola/olive oil blend",
+            "allergens": "",
+            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS, WHEAT",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "House Made Chow Chow",
+            "ingredients": "coleslaw, tomato, canola/olive oil blend, garlic, bell peppers, mustard seeds, turmeric, apple cider vinegar, brown sugar, salt, black pepper",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Pickled Vegetables",
+            "ingredients": "cauliflower, carrots, canola oil, jalapeno chili, turmeric, cinnamon, garlic, thyme, allspice, peppercorn, onions, kosher salt, apple cider vinegar, sugar",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        }
+    ],
+    "Ricker Dining": [
+        {
+            "dish_name": "Chicken Wings with Green Sauce",
+            "ingredients": "chicken wings, canola/olive oil blend, salt, spices, lavender, thyme, garlic, salt, onion, paprika, red pepper, black pepper, cajun seasoning (garlic, black pepper, cayenne pepper, oregano, chilli pepper, sea salt, onion, paprika, bell peppers), jalapeno chili, cilantro, green onion, garlic, mayonnaise, parmesan cheese (milk, cheese cultures, salt, enzymes, powdered cellulose), lime juice",
+            "allergens": "EGG, MILK, SOY",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Country Fried Mushroom Sandwich",
+            "ingredients": "ciabatta (unbleached wheat flour, malted barley flour, sour culture, olive oil, sage, rosemary), oyster mushrooms, plant-based mayonnaise (contains chickpeas), bread crumbs, cajun seasoning, olive oil blend, cabbage, adobo sauce (tomato paste, dried chipotle peppers, distilled vinegar, corn oil, iodized salt [contains potassium iodate], cornstarch, onion powder, garlic powder, spices)",
+            "allergens": "WHEAT",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Seasonal Steamed Vegetables",
+            "ingredients": "seasonal vegetables, salt",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Garlic Fries",
+            "ingredients": "french fries, garlic, parsley, canola/olive oil blend, canola shortening",
+            "allergens": "",
+            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS, WHEAT",
+            "dietary_icons": [
+                "Vegan"
+            ]
+        },
+        {
+            "dish_name": "Buffalo Fried Artichoke \"Wings\"",
+            "ingredients": "artichoke, flour, garlic powder, onion powder, panko, paprika, oatmilk, buffalo hot sauce (distilled vinegar, aged cayenne red peppers, salt, water, canola oil, paprika, xanthan gum, natural butter type flavor, garlic powder), salt, black pepper, fried in canola oil",
+            "allergens": "WHEAT",
+            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Performance Bar",
+            "ingredients": "Seasonal Assortment of Fresh Vegetables, Salads, Beans, Whole Grains, Hard Boiled Eggs, Baked Chicken, Tofu, Hummus, Spinach",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Pasta",
+            "ingredients": "semolina, durum wheat flour, canola/olive oil blend",
+            "allergens": "WHEAT",
+            "trace_allergens": "EGG",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Marinara Sauce",
+            "ingredients": "italian tomatoes, diced tomatoes, fresh onions, extra virgin olive oil, garlic, sea salt, oregano, black pepper",
+            "allergens": "SOY",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Penne Pasta (Gluten-Free)",
+            "ingredients": "brown rice, rice bran, water",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        }
+    ],
+    "Stern Dining": [
+        {
+            "dish_name": "Salmon Teriyaki",
+            "ingredients": "salmon, tamari sauce, rice vinegar, sesame oil, sugar, ginger, garlic, pepper",
+            "allergens": "FISH, SESAME, SOY",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Mongolian Tofu Stir Fry",
+            "ingredients": "tofu, bell peppers, green beans, red onion, canola/olive oil blend, green onions, garlic, salt, pepper, mongolian stir fry sauce (alcohol free tamari, hoisin sauce, beet sugar, corn starch, vegetarian oyster sauce)",
+            "allergens": "SESAME, SOY, WHEAT",
+            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SHELLFISH, TREENUTS",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Roasted Broccoli",
+            "ingredients": "broccoli, olive oil, salt, pepper",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Seasonal Steamed Vegetables",
+            "ingredients": "seasonal vegetables, salt",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Hong Kong Noodles",
+            "ingredients": "hong kong noodles, cabbage, green onions, tamari, sesame oil, salt, sugar, sesame seeds",
+            "allergens": "EGG, SESAME, SOY, WHEAT",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Vegetarian",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Jasmine Rice",
+            "ingredients": "jasmine rice, salt",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Pasta Alfredo",
+            "ingredients": "pasta, white sauce (cream, butter, milk powder, flour, garlic, nutmeg, onion powder, white pepper, salt), mozzarella cheese, parmesan cheese",
+            "allergens": "MILK, WHEAT",
+            "trace_allergens": "EGG",
+            "dietary_icons": [
+                "Vegetarian",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Pasta Marinara",
+            "ingredients": "pasta, marinara sauce, canola/olive oil blend",
+            "allergens": "SOY, WHEAT",
+            "trace_allergens": "EGG",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Penne Pasta (Gluten-Free)",
+            "ingredients": "brown rice, rice bran, water",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Crunchy Miso Sesame Salad",
+            "ingredients": "red cabbage, napa cabbage, iceberg lettuce, carrots, green onions, cilantro, sesame dressing ((rice vinegar, white miso paste [soybeans, organic rice, salt, yeast, koji culture], brown sugar, tamari sauce, canola/olive oil blend, garlic, sesame oil, sesame seeds, ginger, dijon mustard)",
+            "allergens": "SESAME, SOY",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Chicken Fajitas",
+            "ingredients": "grilled chicken, bell peppers, onions, garlic, canola/olive oil blend, salt, chili powder, cumin, oregano",
+            "allergens": "",
+            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS, WHEAT",
+            "dietary_icons": [
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Mushroom Hongos Al Pastor",
+            "ingredients": "mushrooms, onions, guajillo chili, orange juice, achiote paste, garlic, cilantro, pineapple, white vinegar, lime juice, canola/olive oil blend, cumin seeds, salt, pepper",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan"
+            ]
+        },
+        {
+            "dish_name": "Flour Tortilla",
+            "ingredients": "enriched wheat flour, palm shortening, monoglycerides, diglycerides, corn starch",
+            "allergens": "WHEAT",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Spanish Rice",
+            "ingredients": "brown rice, vegetable soup base (contains mushrooms, celery), onions, bell peppers, garlic, jalapeno peppers, canola/olive oil blend, tomato juice, salt, coriander, cumin, pepper, cilantro",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Frijoles Pintos",
+            "ingredients": "pinto beans, onions, garlic, salt",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        }
+    ],
+    "Wilbur Dining": [
+        {
+            "dish_name": "Chili Glazed Cod Fish",
+            "ingredients": "cod fish, honey, chili powder, ginger, salt, pepper, lime, sweet & spicy sauce (apple juice, tamari sauce, ketchup, garlic, brown sugar, red pepper flakes, ginger, apple cider vinegar)",
+            "allergens": "FISH, SOY",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free"
+            ]
+        },
+        {
+            "dish_name": "Mongolian Tofu Stir Fry",
+            "ingredients": "tofu, bell peppers, green beans, red onion, canola/olive oil blend, green onions, garlic, salt, pepper, mongolian stir fry sauce (alcohol free tamari, hoisin sauce, beet sugar, corn starch, vegetarian oyster sauce)",
+            "allergens": "SESAME, SOY, WHEAT",
+            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SHELLFISH, TREENUTS",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Roasted Asparagus",
+            "ingredients": "asparagus, olive oil, salt, pepper",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Seasonal Steamed Vegetables",
+            "ingredients": "seasonal vegetables, salt",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Yakisoba Noodles",
+            "ingredients": "ramen noodles, cabbage, onions, red bell pepper, green onions, vegetarian oyster sauce, A1 sauce, ketchup, sugar, carrots, shiitake mushroom, furikake seasoning (nori seaweed, sesame seeds, salt, sugar, korean red pepper, mushroom seasoning), sesame oil, mayonnaise",
+            "allergens": "EGG, SESAME, SOY, WHEAT",
+            "trace_allergens": "COCONUT, FISH, MILK, PEANUTS, SHELLFISH, TREENUTS",
+            "dietary_icons": [
+                "Vegetarian"
+            ]
+        },
+        {
+            "dish_name": "Panini Station",
+            "ingredients": "telera roll, chipotle aioli (soybean oil, eggs, vinegar, egg yolks, lemon juice concentrate, salt, sugar, dried onions, dried garlic, paprika, natural flavor, calcium disodium edta, tomato paste, dried chipotle peppers, distilled vinegar, corn oil, salt, corn starch, onion powder, garlic powder, spices, Lemon juice, garlic, sherry vinegar, red wine vinegar), beef pork salami, cheddar cheese, provolone cheese, vegan pesto sauce, tomatoes, arugula, sundried tomato pesto sauce",
+            "allergens": "EGG, SOY, WHEAT",
+            "trace_allergens": "COCONUT, MILK, TREENUTS",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Performance Bar",
+            "ingredients": "Seasonal Assortment of Fresh Vegetables, Salads, Beans, Whole Grains, Hard Boiled Eggs, Baked Chicken, Tofu, Hummus, Spinach",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Pasta Marinara",
+            "ingredients": "pasta, marinara sauce, canola/olive oil blend",
+            "allergens": "SOY, WHEAT",
+            "trace_allergens": "EGG",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Penne Pasta (Gluten-Free)",
+            "ingredients": "brown rice, rice bran, water",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        }
+    ]
+}

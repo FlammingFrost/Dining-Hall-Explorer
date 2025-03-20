@@ -1,0 +1,363 @@
+{
+    "Arrillaga Family Dining Commons": [
+        {
+            "dish_name": "Steel Cut Oatmeal",
+            "ingredients": "steel cut oats",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Steel Cut Oatmeal",
+            "ingredients": "steel cut oats",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Scrambled Eggs",
+            "ingredients": "eggs, canola/olive oil blend, salt",
+            "allergens": "EGG",
+            "trace_allergens": "COCONUT, FISH, MILK, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS, WHEAT",
+            "dietary_icons": [
+                "Vegetarian",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Chef's Choice Egg Special",
+            "ingredients": "Please refer to dining hall chef or manager for ingredient and allergen information",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Vegetarian"
+            ]
+        },
+        {
+            "dish_name": "Double Smoked Bacon",
+            "ingredients": "bacon, salt, sugar, sodium phosphate, sodium erythorbate, sodium nitrite",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free"
+            ]
+        },
+        {
+            "dish_name": "Chef's Choice Vegan Breakfast",
+            "ingredients": "Please refer to dining hall chef or manager for ingredient and allergen information",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Vegan"
+            ]
+        },
+        {
+            "dish_name": "Chef's Choice Breakfast Special",
+            "ingredients": "Please refer to dining hall chef or manager for ingredient and allergen information",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Seasonal Fruit",
+            "ingredients": "seasonal fresh fruit",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Seasonal Fruit",
+            "ingredients": "seasonal fresh fruit",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Assorted Allergy-Friendly Items",
+            "ingredients": "sliced bread, alternative milk, vegan yogurt, chia seed puddings, overnight oats, seed bars, granola, and/or condiments) Free from the top food allergens. Please refer to packaging for ingredient information",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan"
+            ]
+        },
+        {
+            "dish_name": "Assorted Allergy-Friendly Items",
+            "ingredients": "sliced bread, alternative milk, vegan yogurt, chia seed puddings, overnight oats, seed bars, granola, and/or condiments) Free from the top food allergens. Please refer to packaging for ingredient information",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan"
+            ]
+        },
+        {
+            "dish_name": "Chef's Choice Breakfast Special",
+            "ingredients": "Please refer to dining hall chef or manager for ingredient and allergen information",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": []
+        }
+    ],
+    "Branner Dining": [],
+    "EVGR Dining": [],
+    "Florence Moore Dining": [],
+    "Gerhard Casper Dining": [],
+    "Lakeside Dining": [
+        {
+            "dish_name": "Steel Cut Oatmeal",
+            "ingredients": "steel cut oats",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Cheesy Grits",
+            "ingredients": "grits, cheddar cheese, parmesan cheese, cream, monterey jack cheese, unsalted butter, white pepper, salt",
+            "allergens": "MILK",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegetarian",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Coconut Chia Seed Pudding",
+            "ingredients": "coconut milk, chia seeds, agave syrup",
+            "allergens": "COCONUT",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Scrambled Eggs",
+            "ingredients": "eggs, canola/olive oil blend, salt",
+            "allergens": "EGG",
+            "trace_allergens": "COCONUT, FISH, MILK, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS, WHEAT",
+            "dietary_icons": [
+                "Vegetarian",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Turkey Sausage Patty",
+            "ingredients": "turkey, salt, dextrose, spice, spice extractives, hydrolyzed corn protein, citric acid, rosemary extract, calcium lactate",
+            "allergens": "",
+            "trace_allergens": "WHEAT",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Triangle Hash Browns",
+            "ingredients": "potatoes, soybean, corn oil, sunflower oil, salt, disodium dihydrogen pyrophosphate, dextrose, fried in canola oil",
+            "allergens": "SOY",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Chef's Choice Vegan Breakfast",
+            "ingredients": "Please refer to dining hall chef or manager for ingredient and allergen information",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Vegan"
+            ]
+        },
+        {
+            "dish_name": "Tasty Tofu Scramble",
+            "ingredients": "tofu, seasonal vegetables, canola/olive oil blend, salt, pepper, turmeric, garlic",
+            "allergens": "SOY",
+            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, TREENUTS, WHEAT",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Chef's Choice Breakfast Special",
+            "ingredients": "Please refer to dining hall chef or manager for ingredient and allergen information",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Gluten-Free Waffles",
+            "ingredients": "white rice flour, degerminated corn flour, cane sugar, soy flour, baking powder, canola oil, salt, natural flavor, xanthan gum",
+            "allergens": "SOY",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Seasonal Fruit",
+            "ingredients": "seasonal fresh fruit",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Assorted Allergy-Friendly Items",
+            "ingredients": "sliced bread, alternative milk, vegan yogurt, chia seed puddings, overnight oats, seed bars, granola, and/or condiments) Free from the top food allergens. Please refer to packaging for ingredient information",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan"
+            ]
+        }
+    ],
+    "Ricker Dining": [],
+    "Stern Dining": [],
+    "Wilbur Dining": [
+        {
+            "dish_name": "Steel Cut Oatmeal",
+            "ingredients": "steel cut oats",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Steel Cut Oatmeal",
+            "ingredients": "steel cut oats",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Scrambled Eggs",
+            "ingredients": "eggs, canola/olive oil blend, salt",
+            "allergens": "EGG",
+            "trace_allergens": "COCONUT, FISH, MILK, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS, WHEAT",
+            "dietary_icons": [
+                "Vegetarian",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Chef's Choice Egg Special",
+            "ingredients": "Please refer to dining hall chef or manager for ingredient and allergen information",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Vegetarian"
+            ]
+        },
+        {
+            "dish_name": "Double Smoked Bacon",
+            "ingredients": "bacon, salt, sugar, sodium phosphate, sodium erythorbate, sodium nitrite",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free"
+            ]
+        },
+        {
+            "dish_name": "Chef's Choice Vegan Breakfast",
+            "ingredients": "Please refer to dining hall chef or manager for ingredient and allergen information",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Vegan"
+            ]
+        },
+        {
+            "dish_name": "Chef's Choice Breakfast Special",
+            "ingredients": "Please refer to dining hall chef or manager for ingredient and allergen information",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Seasonal Fruit",
+            "ingredients": "seasonal fresh fruit",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Seasonal Fruit",
+            "ingredients": "seasonal fresh fruit",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Assorted Allergy-Friendly Items",
+            "ingredients": "sliced bread, alternative milk, vegan yogurt, chia seed puddings, overnight oats, seed bars, granola, and/or condiments) Free from the top food allergens. Please refer to packaging for ingredient information",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan"
+            ]
+        },
+        {
+            "dish_name": "Assorted Allergy-Friendly Items",
+            "ingredients": "sliced bread, alternative milk, vegan yogurt, chia seed puddings, overnight oats, seed bars, granola, and/or condiments) Free from the top food allergens. Please refer to packaging for ingredient information",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan"
+            ]
+        },
+        {
+            "dish_name": "Chef's Choice Breakfast Special",
+            "ingredients": "Please refer to dining hall chef or manager for ingredient and allergen information",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": []
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "input": "Show me all beef dishes available tomorrow.",
+        "CURRENT_DATE": "3-15-2025",
+        "output": "SELECT dish_name, dining_hall, meal, date FROM menu_items WHERE have_beef = 1 AND date = '3-16-2025' LIMIT 50;"
+        },
+        {
+        "input": "List all spicy dishes served in Arrillaga on March 18, 2024.",
+        "CURRENT_DATE": "3-14-2024",
+        "output": "SELECT dish_name, date, meal FROM menu_items WHERE is_spicy = 1 AND dining_hall = 'Arrillaga Family Dining Commons' AND date = '3-18-2024' LIMIT 50;"
+        },
+        {
+        "input": "Find high protein and low fat dish for the following 5 days in Arrillaga dining hall.",
+        "CURRENT_DATE": "3-10-2025",
+        "output": "SELECT dish_name, ingredients, date, meal FROM menu_items WHERE (have_beef = 1 OR have_pork = 1 OR have_chicken = 1 OR have_fish = 1) AND dining_hall = 'Arrillaga Family Dining Commons' AND date BETWEEN '3-11-2025' AND '3-15-2025' LIMIT 50;"
+        },
+        {
+        "input": "Show me all the dishes that contain vegetables and are sweet at Dinner.",
+        "CURRENT_DATE": "3-12-2025",
+        "output": "SELECT dish_name, dining_hall, meal, date FROM menu_items WHERE contains_vegetable = 1 AND is_sweet = 1 AND date >= '3-12-2025' AND meal = 'Dinner' LIMIT 50;"
+        },
+        {
+        "input": "What kind of salad I will have 3 days later",
+        "CURRENT_DATE": "3-11-2025",
+        "output": "SELECT dish_name, dining_hall, meal, date FROM menu_items WHERE contains_vegetable = 1 AND date = '3-14-2025' LIMIT 50;"
+    }
+]

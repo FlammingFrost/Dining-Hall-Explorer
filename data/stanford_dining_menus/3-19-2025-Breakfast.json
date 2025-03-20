@@ -1,0 +1,519 @@
+{
+    "Arrillaga Family Dining Commons": [
+        {
+            "dish_name": "Steel Cut Oatmeal",
+            "ingredients": "steel cut oats",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Steel Cut Oatmeal",
+            "ingredients": "steel cut oats",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Mango Banana Chia Pudding",
+            "ingredients": "chia seeds, rice milk, bananas, mango, strawberries",
+            "allergens": "",
+            "trace_allergens": "PEANUTS, TREENUTS",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Scrambled Eggs",
+            "ingredients": "eggs, canola/olive oil blend, salt",
+            "allergens": "EGG",
+            "trace_allergens": "COCONUT, FISH, MILK, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS, WHEAT",
+            "dietary_icons": [
+                "Vegetarian",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Breakfast Taco Bar",
+            "ingredients": "",
+            "allergens": "EGG, MILK",
+            "trace_allergens": "COCONUT, FISH, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS, WHEAT",
+            "dietary_icons": [
+                "Vegetarian"
+            ]
+        },
+        {
+            "dish_name": "Sautéed Chorizo Sausage",
+            "ingredients": "pork, spices, paprika, salt, dried vinegar, sugar, natural flavorings, dehydrated garlic, turmeric",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free"
+            ]
+        },
+        {
+            "dish_name": "Tater Tots",
+            "ingredients": "potatoes, oil (canola oil, soybean oil, cottonseed oil, sunflower oil, or corn oil), dextrose, natural flavor, salt, sodium acid pyrophosphate, fried in canola oil",
+            "allergens": "SOY",
+            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, TREENUTS, WHEAT",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Plant Powered \"Eggs”",
+            "ingredients": "mung bean protein, canola oil, onion, gellan gum, carrot extractives, natural flavors, turmeric extractives, potassium citrate, salt, soy lecithin, sugar, tapioca syrup, tetrasodium pyrophosphate, transglutaminase, nisin",
+            "allergens": "SOY",
+            "trace_allergens": "EGG",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Waffles",
+            "ingredients": "enriched wheat flour, sugar, soybean oil, leavings, buckwheat flour, buttermilk, natural flavors, artificial flavors, wheat bran, rice flour, yellow corn flour, whole oat flour, whey, whole egg, salt, dextrose, wheat starch, natural flavors, artificial flavor, malted barley flour, lactic acid",
+            "allergens": "EGG, MILK, SOY, WHEAT",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Vegetarian",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Gluten-Free Waffles",
+            "ingredients": "white rice flour, degerminated corn flour, cane sugar, soy flour, baking powder, canola oil, salt, natural flavor, xanthan gum",
+            "allergens": "SOY",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Seasonal Fruit",
+            "ingredients": "seasonal fresh fruit",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Seasonal Fruit",
+            "ingredients": "seasonal fresh fruit",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Assorted Allergy-Friendly Items",
+            "ingredients": "sliced bread, alternative milk, vegan yogurt, chia seed puddings, overnight oats, seed bars, granola, and/or condiments) Free from the top food allergens. Please refer to packaging for ingredient information",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan"
+            ]
+        },
+        {
+            "dish_name": "Assorted Allergy-Friendly Items",
+            "ingredients": "sliced bread, alternative milk, vegan yogurt, chia seed puddings, overnight oats, seed bars, granola, and/or condiments) Free from the top food allergens. Please refer to packaging for ingredient information",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan"
+            ]
+        },
+        {
+            "dish_name": "Chef's Choice Breakfast Special",
+            "ingredients": "Please refer to dining hall chef or manager for ingredient and allergen information",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": []
+        }
+    ],
+    "Branner Dining": [],
+    "EVGR Dining": [],
+    "Florence Moore Dining": [],
+    "Gerhard Casper Dining": [],
+    "Lakeside Dining": [
+        {
+            "dish_name": "Steel Cut Oatmeal",
+            "ingredients": "steel cut oats",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Cheesy Grits",
+            "ingredients": "grits, cheddar cheese, parmesan cheese, cream, monterey jack cheese, unsalted butter, white pepper, salt",
+            "allergens": "MILK",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegetarian",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Coconut Chia Seed Pudding",
+            "ingredients": "coconut milk, chia seeds, agave syrup",
+            "allergens": "COCONUT",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Scrambled Eggs",
+            "ingredients": "eggs, canola/olive oil blend, salt",
+            "allergens": "EGG",
+            "trace_allergens": "COCONUT, FISH, MILK, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS, WHEAT",
+            "dietary_icons": [
+                "Vegetarian",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Turkey Sausage Patty",
+            "ingredients": "turkey, salt, dextrose, spice, spice extractives, hydrolyzed corn protein, citric acid, rosemary extract, calcium lactate",
+            "allergens": "",
+            "trace_allergens": "WHEAT",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Triangle Hash Browns",
+            "ingredients": "potatoes, soybean, corn oil, sunflower oil, salt, disodium dihydrogen pyrophosphate, dextrose, fried in canola oil",
+            "allergens": "SOY",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Plant Powered \"Eggs”",
+            "ingredients": "mung bean protein, canola oil, onion, gellan gum, carrot extractives, natural flavors, turmeric extractives, potassium citrate, salt, soy lecithin, sugar, tapioca syrup, tetrasodium pyrophosphate, transglutaminase, nisin",
+            "allergens": "SOY",
+            "trace_allergens": "EGG",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Tasty Tofu Scramble",
+            "ingredients": "tofu, seasonal vegetables, canola/olive oil blend, salt, pepper, turmeric, garlic",
+            "allergens": "SOY",
+            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, TREENUTS, WHEAT",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "French Toast",
+            "ingredients": "chala bread, eggs, canola/olive oil blend, powdered sugar, cinnamon",
+            "allergens": "EGG, MILK, SOY, WHEAT",
+            "trace_allergens": "COCONUT, FISH, PEANUTS, SESAME, SHELLFISH, TREENUTS",
+            "dietary_icons": [
+                "Vegetarian"
+            ]
+        },
+        {
+            "dish_name": "Gluten-Free Waffles",
+            "ingredients": "white rice flour, degerminated corn flour, cane sugar, soy flour, baking powder, canola oil, salt, natural flavor, xanthan gum",
+            "allergens": "SOY",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Seasonal Fruit",
+            "ingredients": "seasonal fresh fruit",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Assorted Allergy-Friendly Items",
+            "ingredients": "sliced bread, alternative milk, vegan yogurt, chia seed puddings, overnight oats, seed bars, granola, and/or condiments) Free from the top food allergens. Please refer to packaging for ingredient information",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan"
+            ]
+        }
+    ],
+    "Ricker Dining": [],
+    "Stern Dining": [
+        {
+            "dish_name": "Steel Cut Oatmeal",
+            "ingredients": "steel cut oats",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Mango Banana Chia Pudding",
+            "ingredients": "chia seeds, rice milk, bananas, mango, strawberries",
+            "allergens": "",
+            "trace_allergens": "PEANUTS, TREENUTS",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Scrambled Eggs",
+            "ingredients": "eggs, canola/olive oil blend, salt",
+            "allergens": "EGG",
+            "trace_allergens": "COCONUT, FISH, MILK, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS, WHEAT",
+            "dietary_icons": [
+                "Vegetarian",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Irish Breakfast Plate",
+            "ingredients": "fried eggs (eggs, canola/olive oil blend, salt), canadian bacon, baked beans (beans, brown sugar, salt, mustard water, vinegar, mustard seed, salt, paprika, turmeric, modified corn starch, onion powder, caramel color, spice, garlic powder, natural flavor), tomatoes, mushrooms, hash brown patty (potatoes, vegetable oil [canola oil, corn oil, cottonseed oil, palm oil, soybean oil, or sunflower oil], salt, dehydrated potato, onion powder, natural flavor) fried in canola oil",
+            "allergens": "EGG, SOY",
+            "trace_allergens": "COCONUT, FISH, MILK, PEANUTS, SESAME, SHELLFISH, TREENUTS, WHEAT",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Cheesy Chicken Sausage Scramble *NOT HALAL*",
+            "ingredients": "eggs, chicken apple sausage (not halal), cheese, seasonal vegetables, canola/olive oil blend, salt",
+            "allergens": "EGG, MILK, SOY",
+            "trace_allergens": "COCONUT, FISH, PEANUTS, SESAME, SHELLFISH, TREENUTS, WHEAT",
+            "dietary_icons": []
+        },
+        {
+            "dish_name": "Tater Tots",
+            "ingredients": "potatoes, oil (canola oil, soybean oil, cottonseed oil, sunflower oil, or corn oil), dextrose, natural flavor, salt, sodium acid pyrophosphate, fried in canola oil",
+            "allergens": "SOY",
+            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, TREENUTS, WHEAT",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Scrambled Soyrizo & Plant Powered \"Eggs\"",
+            "ingredients": "textured soy protein, soybean oil, paprika, sea salt, distilled white vinegar, cultured dextrose, maltodextrin, caramel color, spices, dried red pepper, garlic powder, plant powered \"eggs\" (mung bean protein, canola oil, onion, gellan gum, carrot extractives, natural flavors, turmeric extractives, potassium citrate, salt, soy lecithin, sugar, tapioca syrup, tetrasodium pyrophosphate, transglutaminase, nisin)",
+            "allergens": "SOY",
+            "trace_allergens": "EGG",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Waffles",
+            "ingredients": "enriched wheat flour, sugar, soybean oil, leavings, buckwheat flour, buttermilk, natural flavors, artificial flavors, wheat bran, rice flour, yellow corn flour, whole oat flour, whey, whole egg, salt, dextrose, wheat starch, natural flavors, artificial flavor, malted barley flour, lactic acid",
+            "allergens": "EGG, MILK, SOY, WHEAT",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Vegetarian",
+                "Halal"
+            ]
+        }
+    ],
+    "Wilbur Dining": [
+        {
+            "dish_name": "Steel Cut Oatmeal",
+            "ingredients": "steel cut oats",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Steel Cut Oatmeal",
+            "ingredients": "steel cut oats",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Mango Banana Chia Pudding",
+            "ingredients": "chia seeds, rice milk, bananas, mango, strawberries",
+            "allergens": "",
+            "trace_allergens": "PEANUTS, TREENUTS",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Scrambled Eggs",
+            "ingredients": "eggs, canola/olive oil blend, salt",
+            "allergens": "EGG",
+            "trace_allergens": "COCONUT, FISH, MILK, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS, WHEAT",
+            "dietary_icons": [
+                "Vegetarian",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Breakfast Taco Bar",
+            "ingredients": "",
+            "allergens": "EGG, MILK",
+            "trace_allergens": "COCONUT, FISH, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS, WHEAT",
+            "dietary_icons": [
+                "Vegetarian"
+            ]
+        },
+        {
+            "dish_name": "Sautéed Chorizo Sausage",
+            "ingredients": "pork, spices, paprika, salt, dried vinegar, sugar, natural flavorings, dehydrated garlic, turmeric",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free"
+            ]
+        },
+        {
+            "dish_name": "Tater Tots",
+            "ingredients": "potatoes, oil (canola oil, soybean oil, cottonseed oil, sunflower oil, or corn oil), dextrose, natural flavor, salt, sodium acid pyrophosphate, fried in canola oil",
+            "allergens": "SOY",
+            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, TREENUTS, WHEAT",
+            "dietary_icons": [
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Plant Powered \"Eggs”",
+            "ingredients": "mung bean protein, canola oil, onion, gellan gum, carrot extractives, natural flavors, turmeric extractives, potassium citrate, salt, soy lecithin, sugar, tapioca syrup, tetrasodium pyrophosphate, transglutaminase, nisin",
+            "allergens": "SOY",
+            "trace_allergens": "EGG",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Waffles",
+            "ingredients": "enriched wheat flour, sugar, soybean oil, leavings, buckwheat flour, buttermilk, natural flavors, artificial flavors, wheat bran, rice flour, yellow corn flour, whole oat flour, whey, whole egg, salt, dextrose, wheat starch, natural flavors, artificial flavor, malted barley flour, lactic acid",
+            "allergens": "EGG, MILK, SOY, WHEAT",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Vegetarian",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Gluten-Free Waffles",
+            "ingredients": "white rice flour, degerminated corn flour, cane sugar, soy flour, baking powder, canola oil, salt, natural flavor, xanthan gum",
+            "allergens": "SOY",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Seasonal Fruit",
+            "ingredients": "seasonal fresh fruit",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Seasonal Fruit",
+            "ingredients": "seasonal fresh fruit",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan",
+                "Halal"
+            ]
+        },
+        {
+            "dish_name": "Assorted Allergy-Friendly Items",
+            "ingredients": "sliced bread, alternative milk, vegan yogurt, chia seed puddings, overnight oats, seed bars, granola, and/or condiments) Free from the top food allergens. Please refer to packaging for ingredient information",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan"
+            ]
+        },
+        {
+            "dish_name": "Assorted Allergy-Friendly Items",
+            "ingredients": "sliced bread, alternative milk, vegan yogurt, chia seed puddings, overnight oats, seed bars, granola, and/or condiments) Free from the top food allergens. Please refer to packaging for ingredient information",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": [
+                "Gluten Free",
+                "Vegan"
+            ]
+        },
+        {
+            "dish_name": "Chef's Choice Breakfast Special",
+            "ingredients": "Please refer to dining hall chef or manager for ingredient and allergen information",
+            "allergens": "",
+            "trace_allergens": "",
+            "dietary_icons": []
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Disher @ Stanford Dining</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; }
+        input { width: 75%; padding: 10px; margin: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px; }
+        button { padding: 10px 20px; font-size: 16px; cursor: pointer; border: none; background-color: #007bff; color: white; border-radius: 5px; }
+        button:hover { background-color: #0056b3; }
+        #response { 
+            margin-top: 20px; 
+            padding: 10px; 
+            background-color: #f4f4f4; 
+            border-radius: 5px; 
+            width: 75%; 
+            min-height: 150px; 
+            max-height: 400px; 
+            overflow-y: auto; 
+            text-align: left; 
+            white-space: pre-wrap; 
+            border: 1px solid #ccc; 
+            word-wrap: break-word;
+        }
+        ul { padding-left: 20px; }
+        li { margin: 5px 0; }
+    </style>
+</head>
+<body>
+
+    <h1>Find Your Disher @ Stanford Dining</h1>
+    <input type="text" id="query" placeholder="Enter your query..." onkeypress="handleKeyPress(event)">
+    <button onclick="sendQuery()">Ask me!</button>
+
+    <div id="response"></div>
+
+    <script>
+        function parseMarkdown(text) {
+            // Convert bold (**text**)
+            text = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+            // Convert newlines to paragraph breaks
+            text = text.replace(/\n\n/g, '</p><p>');
+            // Convert single newlines to line breaks
+            text = text.replace(/\n/g, '<br>');
+            // Convert unordered lists (- item)
+            text = text.replace(/(?:^|\n)- (.*?)(?=\n|$)/g, '<li>$1</li>');
+            text = text.replace(/(\<li\>.*?\<\/li\>)/g, '<ul>$1</ul>');
+            // Convert ordered lists (1. item)
+            text = text.replace(/(?:^|\n)(\d+)\. (.*?)(?=\n|$)/g, '<li>$1. $2</li>');
+            text = text.replace(/(\<li\>\d+\. .*?\<\/li\>)/g, '<ol>$1</ol>');
+            return `<p>${text}</p>`;
+        }
+
+        function handleKeyPress(event) {
+            if (event.key === "Enter") {
+                sendQuery();
+            }
+        }
+
+        async function sendQuery() {
+            const query = document.getElementById("query").value;
+            const responseDiv = document.getElementById("response");
+            responseDiv.innerHTML = "Loading...";
+
+            try {
+                const response = await fetch("/query", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ query })
+                });
+
+                const data = await response.json();
+                responseDiv.innerHTML = parseMarkdown(data.answer || "No response received");
+            } catch (error) {
+                responseDiv.innerHTML = "<p>Error: Unable to fetch response.</p>";
+            }
+        }
+    </script>
+
+</body>
+</html>

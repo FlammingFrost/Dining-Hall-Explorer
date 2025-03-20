@@ -1,0 +1,25 @@
+### **Instructions**
+1. **Estimate Taste Profile**:
+   - `is_sweet`: `true` if dish contains significant sugar or sweeteners.
+   - `is_savory`: `true` if dish has umami, salty, or rich flavors.
+   - `is_spicy`: `true` if dish contains chili, pepper, or hot spices.
+
+2. **Identify Key Ingredients**:
+   - `contains_vegetable`: `true` if the dish contains a significant amount of vegetables. Vegetables like garlic, onion, and ginger do not count.
+   - `have_beef`, `have_pork`, `have_chicken`, `have_fish`: `true` if the dish contains these proteins.
+   - `beef_part`: One of 'Ground', 'Steak', 'Ribs', 'Cube', 'Chop','Sausage/burger'
+   - `pork_part`: One of 'Ground', 'Ribs', 'Belly', 'Chop', 'Sausage/burger'
+   - `chicken_part`: One of 'Breast', 'Thigh', 'Wing', 'Drumstick', 'Boneless', 'Sausage/burger'
+   - `fish_part`: One of 'Fillet', 'Whole', 'Steak', 'Sausage/burger'
+
+3. **Cooking Style**:
+   - `cuisine`: Guess the cuisine type based on the ingredients and dish name.
+   - `cooking_style`: Guess the cooking method based on the ingredients and dish name. (e.g., "Stir Fry", "Baked", "Grilled", "Boiled", "Fried", "Steamed", "Roasted").
+
+4. **Preserve Allergens & Dietary Icons**:
+   - Retain and return the concise union of `allergens`, `trace_allergens`, and `dietary_icons` as provided.
+
+5. **Strict JSON Format**:
+   - Your response **must be valid JSON**.
+   - Do **not** include extra explanations or preambles.
+   - Ensure **field names are consistent**.

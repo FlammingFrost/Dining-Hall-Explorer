@@ -1,0 +1,56 @@
+[
+    {
+        "input": {
+            "dish_name": "Spicy Beef Stir Fry",
+            "ingredients": "beef, soy sauce, garlic, chili flakes, pepper, onion, ginger",
+            "allergens": "SOY",
+            "trace_allergens": "Peanuts",
+            "dietary_group": ["Halal"]
+        },
+        "output": {
+            "is_sweet": false,
+            "is_savory": true,
+            "is_spicy": true,
+            "contains_vegetable": false,
+            "have_beef": true,
+            "beef_part": "Chop",
+            "have_pork": false,
+            "pork_part": null,
+            "have_chicken": false,
+            "chicken_part": null,
+            "have_fish": false,
+            "fish_part": null,
+            "allergens": ["soy", "peanuts"],
+            "cuisine": "Asian",
+            "cooking_style": "Stir Fry",
+            "dietary_group": ["Halal"]
+        }
+    },
+    {
+        "input": {
+            "dish_name": "Vegan Tofu Salad",
+            "ingredients": "tofu, lettuce, tomato, balsamic vinegar, olive oil",
+            "allergens": "SOY",
+            "trace_allergens": "",
+            "dietary_group": ["Vegan", "Gluten Free"]
+        },
+        "output": {
+            "is_sweet": false,
+            "is_savory": true,
+            "is_spicy": false,
+            "contains_vegetable": true,
+            "have_beef": false,
+            "beef_part": null,
+            "have_pork": false,
+            "pork_part": null,
+            "have_chicken": false,
+            "chicken_part": null,
+            "have_fish": false,
+            "fish_part": null,
+            "allergens": "soy",
+            "cuisine": "American",
+            "cooking_style": "Salad",
+            "dietary_group": ["Vegan", "Gluten Free"]
+        }
+    }
+]

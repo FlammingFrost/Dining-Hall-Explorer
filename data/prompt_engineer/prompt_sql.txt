@@ -1,0 +1,15 @@
+### Database Description
+Database Schema:
+  - menu_items (id, date, meal, dining_hall, dish_name, original_description, cuisine, cooking_style, 
+    is_sweet, is_savory, is_spicy, contains_vegetable, have_beef, beef_part, have_pork, pork_part, 
+    have_chicken, chicken_part, have_fish, fish_part, allergens, dietary_group)
+The following columns have limited values:
+- `date`: Format `MM-DD-YYYY`, without leading 0s.
+
+- `dining_hall`: "Arrillaga Family Dining Commons", "Branner Dining", "EVGR Dining", "Florence Moore Dining", "Gerhard Casper Dining", "Lakeside Dining", "Ricker Dining", "Stern Dining", "Wilbur Dining"
+- `meal`: Breakfast, Brunch, Dinner, Lunch
+- `have_beef`, `have_pork`, `have_chicken`, `have_fish`: is binary, 1 or 0
+- `beef_part`: 'Ground', 'Steak', 'Ribs', 'Cube', 'Chop', 'Sausage/burger'
+- `pork_part`: 'Ground', 'Ribs', 'Belly', 'Chop', 'Sausage/burger'
+- `chicken_part`: 'Breast', 'Thigh', 'Wing', 'Drumstick', 'Boneless', 'Sausage/burger'
+- `fish_part`: 'Fillet', 'Whole', 'Steak', 'Sausage/burger'
