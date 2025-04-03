@@ -20,7 +20,8 @@ def init_driver():
     options.add_argument("--window-size=1920,1080")
     # if on macOS
     # return webdriver.Chrome(options=options)
-    options.binary_location = "/usr/bin/chromium"
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
     return webdriver.Chrome(service=webdriver.chrome.service.Service("/usr/bin/chromedriver"), options=options)
 
 
@@ -73,7 +74,7 @@ def get_available_options(update_only=True) -> tuple:
 def scrape_menus(dates, dining_halls, meals) -> list[str]:
     driver = init_driver()
     
-    saved_files = []
+    saved_filepaths = []
     for date_label, date_value in dates.items():
         for meal in meals:
             filename = f"{date_value.replace('/', '-')}-{meal}.json"
@@ -155,11 +156,11 @@ def scrape_menus(dates, dining_halls, meals) -> list[str]:
             with open(filepath, "w", encoding="utf-8") as f:
                 json.dump(day_meal_data, f, indent=4, ensure_ascii=False)
             print(f"Saved data to {filepath}")
-            saved_files.append(filepath)
+            saved_filepaths.append(filepath)
 
     driver.quit()
     print("Scraping completed successfully!")
-    return saved_files
+    return saved_filepaths
 
 # **Usage Example**
 if __name__ == "__main__":

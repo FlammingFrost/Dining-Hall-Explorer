@@ -10,7 +10,7 @@ With following features:
 - [x] Generate **recommendation**.
 - [x] **Deployment** with FastAPI and web interface.
 
-The deployment is now available at [Find Your Disher @ Stanford Dining](https://fastapi-app-902489793845.us-central1.run.app/)
+The deployment is now available at [Find Your Disher @ Stanford Dining](http://18.217.213.78:8000/)
 
 #### Website Preview
 ![preview](preview.png)

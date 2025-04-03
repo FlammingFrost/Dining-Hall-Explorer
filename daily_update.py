@@ -8,7 +8,7 @@ DATA_DIR = "data/stanford_dining_menus"  # Directory where scraped menu JSON
 
 def run_daily_update(update_only=True):
     """Runs the full pipeline to update menu information into the database."""
-    print("Starting Daily Menu Update Pipeline...")
+    # print("Starting Daily Menu Update Pipeline...")
 
     # Step 1: Get available menu data to scrape
     dates_to_scrape, dining_halls, meals_to_scrape = get_available_options(update_only=update_only)
@@ -20,12 +20,12 @@ def run_daily_update(update_only=True):
     print(f"Scraping data for dates: {dates_to_scrape}")
 
     # Step 2: Scrape menu data
-    updated_files = scrape_menus(dates_to_scrape, dining_halls, meals_to_scrape)
+    updated_filepaths = scrape_menus(dates_to_scrape, dining_halls, meals_to_scrape)
     print("Menu data scraped and stored successfully.")
 
     # Step 3: Load newly scraped menu data
     print("Loading scraped menu data...")
-    menu_data_files = load_scraped_data(updated_files)
+    menu_data_files = load_scraped_data(updated_filepaths)
 
     if not menu_data_files:
         print("No new menu data found. Exiting.")
@@ -39,7 +39,7 @@ def run_daily_update(update_only=True):
         # Step 5: Transform data using OpenAI API
         transformed_data = transform_menu_item(**raw_menu_item)
         if not transformed_data:
-            print(f"Skipping: {raw_menu_item['data']['dish_name']}")
+            # print(f"Skipping: {raw_menu_item['data']['dish_name']}")
             continue
 
         # Step 6: Insert transformed data into database
@@ -55,9 +55,16 @@ def run_daily_update(update_only=True):
 def __refresh_database():
     """Helper function to refresh the database by deleting all entries."""
     conn = sqlite3.connect(DATABASE_FILE)
-    # Delete all entries
-    # cursor.execute("DELETE FROM menu_items;")
-    # conn.commit()
+
+    if True:  # Change to False to skip deletion
+        cursor = conn.cursor()
+        cursor.execute("DELETE FROM menu_items")
+        # test if the table is empty
+        cursor.execute("SELECT COUNT(*) FROM menu_items")
+        count = cursor.fetchone()[0]
+        print(f"Deleted all records. Remaining records: {count}")
+        # import pdb; pdb.set_trace()
+    conn.commit()
     
     # Insert all scraped data
     import os

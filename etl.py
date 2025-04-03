@@ -2,6 +2,8 @@ import os
 import json
 import sqlite3
 import subprocess
+import hashlib
+from datetime import datetime
 
 # OpenAI API Key (Replace with your own securely stored key)
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
@@ -23,10 +25,12 @@ def load_prompt(file_path: str) -> str:
 FEW_SHOT_EXAMPLES = load_few_shot_examples("data/prompt_engineer/few_shot_transform.txt")
 PROMPT = load_prompt("data/prompt_engineer/prompt_transform.txt")
 
-# Function to call OpenAI API using curl
+# In-memory cache to store processed results
+TRANSFORM_CACHE = {}
+
 def transform_menu_item(date: str, meal: str, dining_hall: str, data: dict) -> dict:
-    """Uses OpenAI API via curl to generate structured nutritional and property data."""
-    
+    """Uses OpenAI API via curl to generate structured nutritional and property data with caching."""
+
     prompt = f"""
     {PROMPT}
     Use the following few-shot examples as references:
@@ -40,18 +44,36 @@ def transform_menu_item(date: str, meal: str, dining_hall: str, data: dict) -> d
     ### Expected Output (JSON):
     """.strip()
 
+    # Generate a hash key based on the full prompt (captures all relevant input)
+    prompt_hash = hashlib.md5(prompt.encode("utf-8")).hexdigest()
+    date = datetime.strptime(date, "%m-%d-%Y").strftime("%Y-%m-%d")
+
+    # Check cache first
+    if prompt_hash in TRANSFORM_CACHE:
+        print(f"[Cache Hit] Skipping transformation for: {data['dish_name']}")
+        cached_data = TRANSFORM_CACHE[prompt_hash].copy()
+        cached_data["date"] = date
+        cached_data["meal"] = meal
+        cached_data["dining_hall"] = dining_hall
+        cached_data["dish_name"] = data["dish_name"]
+        cached_data["ingredients"] = data["ingredients"]
+        cached_data["original_description"] = json.dumps(data, indent=2)
+        return cached_data
+
     # Prepare the payload
     payload = {
         "model": "gpt-4o-mini",
         "messages": [
-            {"role": "developer", "content": "You are an AI expert in food science and nutrition. Your task is to analyze a dish based on its ingredients and description and estimate its properties, taste profile, and nutritional levels on a 0-10 scale.."},
+            {
+                "role": "developer",
+                "content": "You are an AI expert in food science and nutrition. Your task is to analyze a dish based on its ingredients and description and estimate its properties, taste profile, and nutritional levels on a 0-10 scale."
+            },
             {"role": "user", "content": prompt}
         ],
         "temperature": 0.3
     }
     json_payload = json.dumps(payload, ensure_ascii=False).replace("'", "’")
 
-    # Use json.dumps to ensure proper escaping of special characters
     curl_command = f"""
     curl https://api.openai.com/v1/chat/completions \
     -H "Authorization: Bearer {OPENAI_API_KEY}" \
@@ -62,28 +84,30 @@ def transform_menu_item(date: str, meal: str, dining_hall: str, data: dict) -> d
     retries = 10
     for attempt in range(1, retries + 1):
         try:
-            # Run curl command
+            print(f"[Attempt {attempt}] Transforming: {data['dish_name']}")
             response = subprocess.run(curl_command, shell=True, capture_output=True, text=True, timeout=30)
             output_text = response.stdout.strip()
 
-            # Parse JSON output
             response_json = json.loads(output_text)
             structured_output = json.loads(response_json["choices"][0]["message"]["content"])
-            # add dish name, ingredients to structured_output
+
+            # Enrich the result with context
             structured_output["date"] = date
             structured_output["meal"] = meal
             structured_output["dining_hall"] = dining_hall
             structured_output["dish_name"] = data["dish_name"]
             structured_output["ingredients"] = data["ingredients"]
             structured_output["original_description"] = json.dumps(data, indent=2)
+
+            # Cache the result
+            TRANSFORM_CACHE[prompt_hash] = structured_output
             return structured_output
 
         except Exception as e:
-            print(f"Attempt {attempt} failed with error: {e}")
+            print(f"[Attempt {attempt}] Failed with error: {e}")
             print(f"Response: {response.stdout.strip()}")
             if attempt == retries:
-                print("Max retries reached. Giving up.")
-                import pdb; pdb.set_trace()
+                print("Max retries reached. Returning empty dict.")
                 return {}
 
 # Function to insert transformed data into SQLite
@@ -200,7 +224,7 @@ def initialize_database():
     conn.commit()
     conn.close()
 
-def load_scraped_data(filenames: list[str]) -> list:
+def load_scraped_data(filepaths: list[str]) -> list:
     """
     Reads scraped JSON files and returns a list of dictionaries formatted for database insertion.
     
@@ -210,6 +234,7 @@ def load_scraped_data(filenames: list[str]) -> list:
     scraped_data = []
 
     # Iterate through JSON files in the directory
+    filenames = [f.split("/")[-1] for f in filepaths if f.endswith(".json")]
     for file_name in filenames:
         file_path = file_name
 
